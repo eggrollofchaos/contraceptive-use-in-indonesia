@@ -90,11 +90,11 @@ We would like to further optimize our model for a higher average recall, and con
 ## Repository Structure
     .
     ├── code/                                     # python helper functions file
-        ├── functions.py                          # helper functions
+        └── functions.py                          # helper functions
     ├── crisp_dm_process/                         # initial EDA and model notebook files 
-        ├── Initial_EDA.ipynb                     # notebook file with data exploration, insights, and takeaways  
-        ├── model_fitting_and_tuning.ipynb        # notebook file for modeling trials and process
-        ├── model_predict_1987_vs_2017.ipynb      # notebook file for extended analysis on fitting our trained models on 2017 data
+        └── Initial_EDA.ipynb                     # notebook file with data exploration, insights, and takeaways  
+        └── model_fitting_and_tuning.ipynb        # notebook file for modeling trials and process
+        └── model_predict_1987_vs_2017.ipynb      # notebook file for extended analysis on fitting our trained models on 2017 data
     ├── data/                                     # project datasets
     ├── images/                                   # visualizations; images for notebooks, README, and presentation slides
     ├── Contraception_Indonesia_FINAL.ipynb       # primary project notebook  
